@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    android:padding="24dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/ProfileItemNameEditText"
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:textColor="@color/white"
+        android:text="@string/NumberOfGames"/>
+
+    <EditText
+        android:id="@+id/ProfileItemNumberOfGamesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:inputType="numberDecimal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:textColor="@color/white"
+        android:text="@string/NumberOf180"/>
+
+    <EditText
+        android:id="@+id/ProfileItemNumberOf180EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:inputType="numberDecimal"/>
+
+    <CheckBox
+        android:layout_marginTop="30dp"
+        android:id="@+id/GenderCheckBox"
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/gender"/>
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:background="@color/black"
+    tools:context=".MatchCenter.MatchCenterActivity">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/playerSelect">
+
+
+        <Switch
+            android:id="@+id/doubleOutSW"
+            android:layout_width="150dp"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Duouble out" />
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/grey"
+            android:layout_margin="5dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:background="@color/grey"
+                android:layout_height="wrap_content"
+                android:text="Player 1:" />
+            <Spinner
+                android:id="@+id/player1spinner"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:spinnerMode="dialog"
+                android:layout_width="150dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/grey"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="Player 2:" />
+            <Spinner
+                android:id="@+id/player2spinner"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:nestedScrollingEnabled="true"
+                android:layout_width="150dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="Player 3:" />
+            <Spinner
+                android:id="@+id/player3spinner"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:nestedScrollingEnabled="true"
+                android:spinnerMode="dialog"
+                android:layout_width="150dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="Player 4:" />
+            <Spinner
+                android:id="@+id/player4spinner"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:spinnerMode="dialog"
+                android:nestedScrollingEnabled="true"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/grey"
+            android:layout_margin="5dp"
+            android:gravity="center">
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+                android:id="@+id/scoreRG"
+                android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_101"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="101" />
+            <RadioButton android:id="@+id/radio_201"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="201" />
+
+             <RadioButton android:id="@+id/radio_301"
+                 android:layout_width="wrap_content"
+                 android:layout_marginHorizontal="10dp"
+                 android:textColor="@color/white"
+                 android:layout_height="wrap_content"
+                 android:checked="true"
+                 android:gravity="center"
+                 android:text="301" />
+
+             <RadioButton
+                 android:id="@+id/radio_501"
+                 android:layout_width="wrap_content"
+                 android:textColor="@color/white"
+                 android:layout_marginHorizontal="10dp"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:text="501" />
+        </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gameOnbtn"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:text="Game on!">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

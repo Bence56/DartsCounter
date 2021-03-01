@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NHF</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="save">save</string>
+    <string name="warn_message">Data is missing!</string>
+    <string name="name">Name: </string>
+    <string name="NumberOfGames">How many games he played:</string>
+    <string name="gender">Is he a man?</string>
+    <string name="NumberOf180">How many 180s he got:</string>
+    <string name="new_profile_item">New Profile Item</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_match_center">MatchCenterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_game">GameActivity</string>
+</resources>
